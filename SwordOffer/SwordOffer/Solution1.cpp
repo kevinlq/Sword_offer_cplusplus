@@ -13,6 +13,7 @@
 #include "Solution1.h"
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -48,14 +49,12 @@ bool Solution1::find(vector<vector<int> > ay, int target)
 
 void Solution1::test()
 {
-		vector <vector<int> > array1{{ 1, 2, 3, 4, 5 },
-		{ 6, 7, 8, 9, 10 },
-		{ 11, 12, 13, 14, 15 },
-		{ 16, 17, 18, 19, 20 }};
+	vector<vector<int> > array1 = { 
+		{ 1, 2, 3 }, { 2, 3, 4 }, { 3, 4, 5 }
+	};
 
-		vector<int> target{ 1, 2, 3, 10, 0, -1, 32, 34, 20, 16, 15, 6 };
-		for (int i = 0; i != target.size(); i++){
-			cout << "target " << target[i] << boolalpha << "    std:" << (1 <= target[i] && target[i] <= 20) << "  res:"
-				<< find(array1, target[i]) << endl;
-		}
+	if (find(array1,2) )
+		cout <<"find"<<endl;
+	else
+		cout <<"not find"<<endl;
 }
