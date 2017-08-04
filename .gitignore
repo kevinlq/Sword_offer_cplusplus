@@ -49,8 +49,8 @@ Thumbs.db
 *.idb
 *.ilk
 *.pdb
-*.sln
-*.suo
+!*.sln
+!*.suo
 *.vcproj
 *vcproj.*.*.user
 *.ncb
