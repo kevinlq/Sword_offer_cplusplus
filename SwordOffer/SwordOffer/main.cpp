@@ -6,8 +6,10 @@ using namespace std;
 
 int main(int argc,char *argv[])
 {
+#if 0
 	Solution1 s1;
 	s1.test();
+#endif
 
 	Solution2 s2;
 	s2.test();
