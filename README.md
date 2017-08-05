@@ -8,7 +8,9 @@ this is Sword offer c plus plus code
 
 ### Detail
 
-#### Solution1
+#### 1. Solution1
+
+![](/screen/solution1.png)
 
 
-#### Solution2
+#### 2. Solution2

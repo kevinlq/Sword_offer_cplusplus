@@ -50,11 +50,20 @@ bool Solution1::find(vector<vector<int> > ay, int target)
 void Solution1::test()
 {
 	vector<vector<int> > array1 = { 
-		{ 1, 2, 3 }, { 2, 3, 4 }, { 3, 4, 5 }
+		{ 1, 2, 8, 9 }, { 2, 4, 9, 12 }, { 4, 7, 10, 13 }, {6, 8, 11, 15}
 	};
 
-	if (find(array1,2) )
-		cout <<"find"<<endl;
-	else
-		cout <<"not find"<<endl;
+	int row = array1.size();
+	int col = array1[0].size();
+
+	vector<int> target{1, 2, 3, 4, 5, 6, 7, 8};
+
+	std::cout << "===============start test solution1===================" << std::endl;
+
+	for (int i = 0; i < target.size(); i++)
+	{
+		cout << "target:" << target.at(i)<< boolalpha << "  fiind: " << find(array1,target.at(i)) << endl;
+	}
+
+	std::cout << "===============end test solution1===================" << std::endl;
 }
