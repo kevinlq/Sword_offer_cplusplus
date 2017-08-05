@@ -12,6 +12,7 @@ int main(int argc,char *argv[])
 	Solution2 s2;
 	s2.test();
 
+
 	system("pause");
 	return 0;
 }
