@@ -8,10 +8,12 @@ this is Sword offer c plus plus code
 
 ### Detail
 
-#### 1. [Solution1](/wiki/home.md)
+#### 1. [Solution1](/wiki/solution1.md)
 
 
 ![](/screen/solution1.png)
 
 
-#### 2. Solution2
+#### 2. [Solution2](/wiki/solution2.md)
+
+![](/screen/solution2.png)

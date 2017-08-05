@@ -104,7 +104,7 @@ void Solution1::test()
 	}
 
 	std::cout << "\r\ntest find2" << std::endl;
-	int value = 2;
+	int value = 11;
 	if ( find2((int *)array2, 4, 4, value))
 		std::cout << "find value " << value << endl;
 	else
