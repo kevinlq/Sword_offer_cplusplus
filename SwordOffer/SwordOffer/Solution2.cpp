@@ -54,10 +54,11 @@ void Solution2::test()
 	std::cout << "===============start test solution2===================" << std::endl;
 
 	char str[30] = "we are happy!";
+	cout << "replace before: " << str <<endl;
 
 	replaceSpace(str,strlen(str));
 
-	cout << "replace after:" << str<<endl;
+	cout << "replace after: " << str<<endl;
 
 	std::cout << "===============end test solution2===================" << std::endl;
 }

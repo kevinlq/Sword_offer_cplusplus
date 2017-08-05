@@ -5,8 +5,9 @@ public:
 	Solution2();
 	~Solution2();
 
-	void replaceSpace(char str[], int length);
-
 	void test();
+
+private:
+	void replaceSpace(char str[], int length);
 };
 
