@@ -11,7 +11,6 @@ Solution2::Solution2()
 {
 }
 
-
 Solution2::~Solution2()
 {
 }

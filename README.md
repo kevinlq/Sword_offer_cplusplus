@@ -17,3 +17,7 @@ this is Sword offer c plus plus code
 #### 2. [Solution2](/wiki/solution2.md)
 
 ![](/screen/solution2.png)
+
+#### 2. [Solution3](/wiki/solution3.md)
+
+![](/screen/solution3.png)

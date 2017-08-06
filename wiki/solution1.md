@@ -1,4 +1,4 @@
-[home](../README.md)
+## [home](../README.md)
 
 ## Solution1
 主要考察二维数组的操作方式
